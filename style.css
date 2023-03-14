@@ -1,0 +1,173 @@
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+.ramda{
+  width: 1480px;
+  margin: 0 auto;
+}
+.logo{
+  margin-left: 70px;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+line-height: 94px;
+display: flex;
+align-items: flex-end;
+text-align: center;
+
+color: #000000;
+}
+
+.menu{
+  display: flex;
+width: 1280px;
+margin-top: 40px;
+
+background: #35444F;
+}
+.item{
+  padding: 24px 32px;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+border-left: 1px solid white;
+
+color: #FFFFFF;
+
+}
+.item:last-child{
+  border-right: 1px solid white;
+}
+.blue{
+  color:  #4BCAFF;
+}
+.item a{
+  color: white;
+}
+.item:first-child{
+  margin-left: 160px;
+}
+.item:hover{
+  background: #222F3A;
+}
+/* main */
+.parents-main{
+  display: flex;
+  margin-top: 49px;
+}
+/* left-block */
+
+.left-menu{
+  width: 344px;
+  height: 399px;
+  border: 1px solid #000000
+  
+}
+.list{
+ 
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 27px;
+
+}
+.list:hover{
+  padding-left: 40px;
+  background: #DBDBDB;
+  transition: 0.5s;
+}
+.list a{
+  display: block;
+  color: #485863;
+  padding: 26px 44px;
+}
+.list a:hover{
+
+  transition: 0.5s;
+}
+/* right-block */
+.right-block{
+  width: 885px;
+  margin-left: 52px;
+}
+.image{
+  border: 1px solid black;
+  height: 529px;
+  width: 885px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.goated:hover{
+width: 50%;
+transition: 0.5s;
+}
+.main-text{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+/* or 133% */
+
+
+color: #2C2C2C;
+margin-top: 35px;
+}
+
+.goated{
+  width: 320px;
+
+}
+/* footer */
+.footer{
+  display: flex;
+  background: rgba(99, 105, 110, 0.48);
+  width: 1280px;
+  margin-top: 54px;
+  margin-bottom: 30px;
+  justify-content:space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.list-footer a{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 28px;
+/* identical to box height, or 100% */
+
+color: #0C1927;
+
+}
+.list-footer a:hover{
+  
+color: #3181A6;
+text-decoration: underline;
+}
+.footer-text{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 24px;
+margin-right: 40px;
+
+color: #010101;
+
+}
+.footer-menu{
+  display: flex;
+
+
+}
+.list-footer a{
+  margin-left: 35px;
+}
